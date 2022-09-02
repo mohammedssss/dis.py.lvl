@@ -1,0 +1,9 @@
+discord
+ruamel.yaml
+pymongo
+dnspython
+vacefron.py
+psutil
+python-dotenv
+
+#keep mongo url and fill config.json , config.yml so it works
