@@ -16,9 +16,9 @@ load_dotenv()
 
 # Opens the config and reads it, no need for changes unless you'd like to change the library (no need to do so unless having issues with ruamel)
 yaml = YAML()
-with open("Configs/config.yml", "r", encoding="utf-8") as file:
+with open("config.yml", "r", encoding="utf-8") as file:
     config = yaml.load(file)
-with open("Configs/spamconfig.yml", "r", encoding="utf-8") as file2:
+with open("spamconfig.yml", "r", encoding="utf-8") as file2:
     spamconfig = yaml.load(file2)
 
 
