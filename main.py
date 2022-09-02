@@ -27,9 +27,9 @@ client = commands.Bot(command_prefix=config['Prefix'], intents=discord.Intents.a
 client.remove_command('help')
 
 # sends discord logging files which could potentially be useful for catching errors.
-os.remove("Logs/logs.txt")
+os.remove("logs.txt")
 FORMAT = '[%(asctime)s]:[%(levelname)s]: %(message)s'
-logging.basicConfig(filename='Logs/logs.txt', level=logging.DEBUG, format=FORMAT)
+logging.basicConfig(filename='logs.txt', level=logging.DEBUG, format=FORMAT)
 logging.debug('Started Logging')
 logging.info('Connecting to Discord.')
 
